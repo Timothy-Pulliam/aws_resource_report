@@ -9,17 +9,11 @@ https://docs.aws.amazon.com/resource-explorer/latest/userguide/getting-started-s
 
 ## Usage
 
-Get all resources
-
-`./resource_report.py`
-
-Get only resources that match the query string
-
-`./resource_report.py queryString='myapp'`
-
-List available resource types that can be queried
-
-`./resource_report.py --list-resource-types`
+| Description | Syntax |
+| --- | ----------- |
+| Get all resources | `./resource_report.py` |
+| Get only resources that match the query string | `./resource_report.py queryString='myapp'`|
+| List available resource types that can be queried | `./resource_report.py --list-resource-types`|
 
 ### Filters
 

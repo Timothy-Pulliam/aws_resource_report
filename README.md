@@ -1,10 +1,17 @@
 ## About
 
-In order to use this script, you must enable Amazon Resource Explorer. It is a free service provided by Amazon.
+This script takes a search query as input, and generates a CSV file with the following information:
 
-Amazon Web Services Resource Explorer is a resource search and discovery service. By using Resource Explorer, you can explore your resources using an internet search engine-like experience. Examples of resources include Amazon Relational Database Service (Amazon RDS) instances, Amazon Simple Storage Service (Amazon S3) buckets, or Amazon DynamoDB tables. You can search for your resources using resource metadata like names, tags, and IDs. Resource Explorer can search across all of the Amazon Web Services Regions in your account in which you turn the service on, to simplify your cross-Region workloads.
+* Resource ARN
+* Owning Account ID
+* AWS Region
+* Resource Type
+* Service
+* Tags
 
-For more information, see the documentation
+Amazon Resource Explorer must be enabled. It is a free service provided by Amazon.
+
+To enable Resource Explorer
 https://docs.aws.amazon.com/resource-explorer/latest/userguide/getting-started-setting-up.html
 
 ## Usage
